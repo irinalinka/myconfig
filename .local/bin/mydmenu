@@ -1,0 +1,2 @@
+#/usr/bin/bash
+dmenu_run -l 15 -fn 'PT Mono:size=11' -nb '#110038' -nf '#cdd6f5' -sb '#c0caf5' -sf '#480089'

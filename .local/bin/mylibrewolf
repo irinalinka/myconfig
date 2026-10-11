@@ -1,0 +1,2 @@
+#/usr/bin/bash
+librewolf --profile /root/.local/librewolf-data

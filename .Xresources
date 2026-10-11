@@ -1,0 +1,57 @@
+
+! ── Tokyo Night Midnight — URxvt ──
+
+URxvt.font: xft:PT Mono:size=11
+URxvt.boldFont: xft:Terminus:size=12:style=Bold
+
+URxvt.depth: 32
+URxvt.geometry: 80x-1
+
+! Dark background and foreground
+URxvt.background: #0e0e1e
+URxvt.foreground: #c0caf5
+
+! Cursor
+URxvt.cursorColor: #c0caf5
+URxvt.cursorBlink: true
+
+! Selection
+URxvt.highlightColor: #292e42
+URxvt.highlightTextColor: #c0caf5
+
+! Normal colors
+URxvt.color0:  #1a1b26
+URxvt.color1:  #ff0000
+URxvt.color2:  #00ff00
+URxvt.color3:  #e0af68
+URxvt.color4:  #7aa2f7
+URxvt.color5:  #bb9af7
+URxvt.color6:  #7dcfff
+URxvt.color7:  #a9b1d6
+
+! Bright colors
+URxvt.color8:  #414868
+URxvt.color9:  #ff0000
+URxvt.color10: #00ff00
+URxvt.color11: #ff9e64
+URxvt.color12: #8db0ff
+URxvt.color13: #c7a0ff
+URxvt.color14: #89ddff
+URxvt.color15: #c0caf5
+
+! Scrollback
+URxvt.saveLines: 5000
+URxvt.scrollBar: false
+
+! Input
+URxvt.iso14755: false
+
+! Appearance
+URxvt.internalBorder: 8
+URxvt.letterSpace: 0
+URxvt.transparent: false
+
+! Clipboard
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.C-S-C: perl:clipboard:copy
+URxvt.keysym.C-S-V: perl:clipboard:paste

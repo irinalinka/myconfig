@@ -1,0 +1,12 @@
+/*
+!.gitignore
+!.bashrc
+!.urxvt
+!.Xresources
+!.xinitrc
+!.config/
+!.config/*
+!.local/
+.local/*
+!.local/bin/
+!.local/bin/**
